@@ -18,7 +18,9 @@ body {
 #close{
   display: none;
 }
-
+#mobile{
+  display:none
+}
 #hero::before {
   content: '';
   position: absolute;
