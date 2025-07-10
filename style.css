@@ -1605,8 +1605,14 @@ body {
     position: relative;
     left: 45px;
   }
-  .rooms img{
-    width: 320px;
+  /* .rooms img{
+    width: 100px;
+  } */
+  .image1 img,
+  .image2 img,  
+  .image3 img{
+    width: 325px;
+  
   }
   .container{
     position: relative;
@@ -1638,8 +1644,8 @@ body {
 
 }
 
-@media (max-width: 412px){
+/* @media (max-width: 412px){
   .rooms img{
-    width: 370px;
+    width: 350px;
   }
-}
+} */
