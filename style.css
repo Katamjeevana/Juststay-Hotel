@@ -246,6 +246,10 @@ ul#navbar {
   justify-content: center;
   color: #424242;
 }
+#l2{
+  position: relative;
+  top: -75px;
+}
 
 .line1 {
   position: relative;
@@ -1007,6 +1011,8 @@ ul#navbar {
     overflow-x: hidden;
     height: auto;
     z-index: 0;
+     scroll-behavior: smooth;
+  overflow-x: hidden; 
   }
 
   /* Hero section */
@@ -1600,6 +1606,8 @@ ul#navbar {
   padding: 0;
   width: 100%;
   overflow-x: hidden;
+   scroll-behavior: smooth;
+ 
 }
 
 /* Ensure footer is at bottom */
