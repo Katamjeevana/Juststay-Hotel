@@ -1599,7 +1599,7 @@ body {
   }
   #rooms{
     position: relative;
-    top: -250px;
+    top: -220px;
   }
   .explore{
     position: relative;
@@ -1636,4 +1636,10 @@ body {
   margin-top: auto; /* Pushes footer to bottom */
 }
 
+}
+
+@media (max-width: 412px){
+  .rooms img{
+    width: 370px;
+  }
 }
