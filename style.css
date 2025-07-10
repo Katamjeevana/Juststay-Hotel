@@ -1605,23 +1605,17 @@ body {
     position: relative;
     left: 45px;
   }
-  /* .rooms img{
-    width: 100px;
-  } */
-  .image1 img,
-  .image2 img,  
-  .image3 img{
-    width: 325px;
   
+  .rooms img{
+    width: 325px;
   }
-  .container{
-    position: relative;
-    /* top: 300px;
-     */
+  .services{
+     top: -70px;
   }
+
   .vectors{
     position: relative;
-    top: 300px;
+    top: 320px;
   }
   #test {
     position: relative;
@@ -1635,7 +1629,7 @@ body {
   }
   #adjust{
     position: relative;
-    top: 300px;
+    top: 360px;
     
   }
   #footer {
@@ -1644,8 +1638,3 @@ body {
 
 }
 
-/* @media (max-width: 412px){
-  .rooms img{
-    width: 350px;
-  }
-} */
