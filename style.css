@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
    z-index: 0;
 }
+/* .section {
+  padding: 80px 20px;
+  margin-top: 60px;
+} */
 
 #hero {
   position: relative;
@@ -1014,7 +1018,10 @@ ul#navbar {
      scroll-behavior: smooth;
   overflow-x: hidden; 
   }
-
+   .section {
+  padding: 40px 2px;
+  margin-top: 20px;
+}
   /* Hero section */
   #hero {
     min-height: 750px;
@@ -1450,20 +1457,37 @@ ul#navbar {
   }
 
   .rooms img {
-    width: 353px;
-  }
-  #contact {
+  width: 90%;
+  max-width: 655px; /* or 100%, depending on layout */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+  /* #contact {
     position: relative;
     top: 100px;
     height: 100vh;
     text-align: center;
   }
-  /* Testimonials */
+ 
   #test {
     position: relative;
     top: 1300px;
     left: -10px;
-  }
+  } */
+   #contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#test {
+  margin-top: 50px;
+  padding: 10px ;
+   padding-left: -40px;
+   margin-left: -32px;
+}
 
   #people {
     position: relative;
@@ -1690,7 +1714,15 @@ body {
     z-index: 1100 !important;
     cursor: pointer;
   }
-
+  #aboutus {
+    position: relative;
+    top: -50px;
+    
+  }
+  #exe{
+    position: relative;
+    top: 300px;
+  }
   .just {
     position: relative;
     left: 10px;
@@ -1705,7 +1737,7 @@ body {
   }
   #rooms{
     position: relative;
-    top: -220px;
+    top: -260px;
   }
   .explore{
     position: relative;
@@ -1725,8 +1757,8 @@ body {
   }
   #test {
     position: relative;
-    top: 1500px;
-    left: -10px;
+    top: 50px;
+    left: 10px;
     height: auto;
   } 
   .qoute{
@@ -1744,3 +1776,10 @@ body {
 
 }
 
+@media (max-width: 375px){
+ 
+  .section {
+  padding: 40px 0px;
+  margin-top: 110px;
+}
+}
