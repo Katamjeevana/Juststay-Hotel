@@ -943,21 +943,50 @@ ul#navbar {
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 900px) {
+   html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    z-index: 0;
+     scroll-behavior: smooth;
+  overflow-x: hidden; 
+  }
+   .section {
+    padding: 30px 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+  }
 
   /* Hero section adjustments */
+  
   #hero {
     min-height: 600px;
+  }
+
+  .herooo{
+    position: relative;
+    top: 290px;
+  }
+  .wel{
+    position: relative;
+    top: 260px;
   }
 
   .hotel,
   .ind {
     font-size: 48px;
-    top: 200px;
+    top: 180px;
   }
 
+  .hotel{
+    position: relative;
+    top: 240px;
+  }
   .para {
     width: 80%;
-    top: 120px;
+    top: 160px;
   }
 
   /* About section */
@@ -970,40 +999,187 @@ ul#navbar {
   .img1,
   .img2 {
     width: 90%;
-    left: 0;
+    left: -40px;
+    max-width: 700px;
     margin-bottom: 20px;
+  }
+  .img1 {
+    position: relative;
+    left: -100px;
+  }
+  .img2{
+    position: relative;
+    top: -400px;
+  }
+  #text{
+    position: relative;
+    top: 300px;
+  }
+  .text{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .his {
+    position: relative;
+    left: -40px;
+    
+  }
+  .h2{
+    left: 10px;
+  }
+  #pp1,
+  #pp2 {
+    position: relative;
+    left: 15px;
+   
   }
 
   .pp1,
   .pp2 {
     width: 90%;
-    left: 0;
+    left: -40px;
+  }
+  .b3 {
+    position: relative;
+    left: -37px;
+  }
+
+  #b3{
+    position: relative;
+    left: 15px;
+  }
+  .experience{
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    padding-top: 2cap;
+  }
+  .experience h2 {
+    font-family: Poppins;
+    font-weight: 550;
+    font-style: Medium;
+    font-size: 38px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: -25px;
+    font-weight: 500;
+    /* Medium */
+    text-shadow: 0 0 0.5px currentColor;
+
+  }
+
+  .experience p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    position: relative;
+    top: -50px;
+
+  }
+
+  .eight{
+    position: relative;
+    left: 8px;
+  }
+
+  .hundred{
+    position: relative;
+    right: 24px;
+  }
+
+  .fifty{
+    position: relative;
+    right: 20px;
+  }
+  .thirty{    
+    position: relative;
+    right: 24px;
+  }
+  .thirty p{
+    right: 10px;
   }
 
   /* Rooms section */
   .rooms {
     flex-direction: column;
     align-items: center;
+    top: 150px;
+    left: -15px;
   }
-
+  .explore{
+    position: relative;
+    left: 210px;
+  }
   .image1,
   .image2,
   .image3 {
-    width: 90%;
+    width: 80%;
+    height: auto;
     margin-bottom: 20px;
+  }
+  .rooms img {
+  width: 90%;
+  max-width: 455px; /* or 100%, depending on layout */
+  height: auto;
+  display: block;
+  margin: 0 auto;
   }
 
   /* Services section */
+
+  #test{
+    position: relative;
+    left: 20px;
+  }
+  #adjust{
+    top: 500px;
+    left: -20px;
+  }
+  
+  
+  .testimonial2{
+    position: relative;
+    left: -700px;
+  }
+  .qoute {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* optional for alignment */
+  gap: 20px; /* optional spacing */
+}
+
+.qoute .testimonial2 {
+  flex: 0 1 calc(50% - 20px); /* 2 items per row, subtract gap */
+  box-sizing: border-box;
+}
+
+
   .vectors {
     flex-direction: column;
     align-items: center;
     left: 0;
+    top: 500px;
   }
 
   .vector1,
   .vector2 {
     width: 90%;
   }
+  /* #footer{
+    position: relative;
+    left:-600px;
+  } */
+  .footer-content {
+    position: relative;
+    left: 650px;
+    top: -100px;
+  }
+  
 }
 
 /* Small devices (phones, 390px and up) */
